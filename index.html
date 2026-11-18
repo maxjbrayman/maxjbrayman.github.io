@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drummit – Support</title>
+<style>
+  :root{--accent:#8B5A1B;--accent-soft:#F6EEE3;--ink:#1d1b19;--muted:#6b645c;--line:#e7e1d9;--bg:#fbf9f6}
+  @media (prefers-color-scheme:dark){:root{--accent:#D9A45F;--accent-soft:#2a2219;--ink:#f2eee9;--muted:#a99f94;--line:#3a332c;--bg:#161412}}
+  *{box-sizing:border-box}
+  body{margin:0;font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;color:var(--ink);background:var(--bg)}
+  header{border-bottom:1px solid var(--line);background:var(--bg);position:sticky;top:0;z-index:2}
+  .bar{max-width:760px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:20px}
+  .brand{font-weight:800;font-size:20px;letter-spacing:-.02em;color:var(--accent);margin-right:auto}
+  nav a{color:var(--muted);text-decoration:none;font-weight:600;font-size:15px;padding:6px 2px;border-bottom:2px solid transparent}
+  nav a.on{color:var(--ink);border-color:var(--accent)}
+  main{max-width:760px;margin:0 auto;padding:40px 24px 80px}
+  h1{font-size:34px;line-height:1.15;letter-spacing:-.02em;margin:0 0 8px}
+  h2{font-size:21px;margin:36px 0 8px;letter-spacing:-.01em}
+  .lede{color:var(--muted);font-size:18px;margin:0 0 28px}
+  .card{background:var(--accent-soft);border-radius:14px;padding:18px 20px;margin:20px 0}
+  .card strong{display:block;margin-bottom:2px}
+  a{color:var(--accent)}
+  details{border-bottom:1px solid var(--line);padding:14px 0}
+  summary{cursor:pointer;font-weight:600;list-style:none}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";float:right;color:var(--muted);font-weight:400}
+  details[open] summary::after{content:"–"}
+  details p,details ul{margin:10px 0 0;color:var(--ink)}
+  ul{padding-left:22px}
+  .meta{color:var(--muted);font-size:14px}
+  footer{max-width:760px;margin:0 auto;padding:0 24px 40px;color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<header><div class="bar">
+  <a class="brand" href="./" style="text-decoration:none">Drummit</a>
+  <nav><a href="./" class="on">Support</a> &nbsp; <a href="privacy.html">Privacy Policy</a></nav>
+</div></header>
+
+<main>
+<section id="v-support">
+  <h1>Drummit Support</h1>
+  <p class="lede">Drummit identifies the drums, cymbals, pedals and other gear in a photo and tells you the brand, model and size of each piece, with links to research or buy it.</p>
+
+  <div class="card">
+    <strong>Contact</strong>
+    Questions, bug reports or feedback: <a href="mailto:maxbrayman@gmail.com">maxbrayman@gmail.com</a><br>
+    <span class="meta">Email address: maxbrayman@gmail.com. I usually reply within a few days.</span>
+  </div>
+
+  <h2>Frequently asked questions</h2>
+  <details><summary>How do I scan my gear?</summary>
+    <p>Open the <b>Scan</b> tab and tap <b>Take photo</b> to use the camera, or <b>Upload photo</b> to choose one from your library. Then tap <b>Scan image</b>. Analysis usually takes under a minute.</p></details>
+  <details><summary>How do I get the best results?</summary>
+    <ul><li>Use good lighting and avoid heavy shadows or glare on cymbals.</li>
+    <li>Make logos and printed text (like cymbal stamps or drumhead logos) visible and in focus.</li>
+    <li>Overhead or angled shots of the whole kit work well. For a specific piece, get closer.</li></ul></details>
+  <details><summary>An item was identified incorrectly. Why?</summary>
+    <p>Drummit uses AI image analysis, which can make mistakes, especially when logos are hidden, blurry or worn. Each result shows a confidence level and the reason for it. Treat results as a starting point and double-check before buying or selling gear.</p></details>
+  <details><summary>Where are my saved scans and gear stored?</summary>
+    <p>Only on your device. Drummit has no accounts and doesn't keep your scans on a server. If you delete the app, your saved scans and gear list are deleted too (unless they're restored from a device backup).</p></details>
+  <details><summary>How do I delete a scan or item?</summary>
+    <p>Saved scans and items live in the app on your device. Remove them in the app, or delete the app to remove everything.</p></details>
+  <details><summary>Does Drummit need an internet connection?</summary>
+    <p>Yes, to scan. Photos are analyzed by a server. You can browse saved scans and your gear list offline.</p></details>
+  <details><summary>Does Drummit cost anything?</summary>
+    <p>No. Drummit is free, with no ads and no account required.</p></details>
+  <details><summary>What are the store links?</summary>
+    <p>"Research and buy" links open retailer websites such as Sweetwater, Guitar Center and Reverb in your browser. Those sites are run by third parties and have their own terms and privacy policies.</p></details>
+</section>
+</main>
+<footer>© 2026 Max Brayman</footer>
+
+</body>
+</html>
